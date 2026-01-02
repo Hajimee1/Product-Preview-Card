@@ -45,7 +45,7 @@ svg {
 .img-frame {
   width: 100%;
   height: 25em;
-  background-image: url("/images/image-product-mobile.jpg");
+  background-image: url("./images/image-product-mobile.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 0.5em 0.5em 0.1em 0.1em;
@@ -100,7 +100,7 @@ h1 {
 .btn:active,
 .btn:focus {
   background-color: var(--dark-green);
-  cursor: url("/images/Pointer.png") 0 0, pointer;
+  cursor: url("./images/Pointer.png") 0 0, pointer;
 }
 @media (min-width: 80rem) {
   main {
@@ -111,7 +111,7 @@ h1 {
     flex: 0 0 50%;
   }
   .img-frame {
-    background-image: url("/images/image-product-desktop.jpg");
+    background-image: url("./images/image-product-desktop.jpg");
     height: 100%;
     border-radius: 0.5em 0.1em 0.1em 0.5em;
   }
