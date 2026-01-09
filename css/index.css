@@ -15,11 +15,12 @@
 body {
   min-height: 100vh;
   display: flex;
-  align-items: center; /* dikey */
-  justify-content: center; /* yatay */
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  background-color: rgb(223, 193, 153);
 }
 main {
   width: 100%;
@@ -29,6 +30,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 .order {
   margin: 2rem 0;
